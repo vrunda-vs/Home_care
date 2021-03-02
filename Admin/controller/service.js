@@ -1,5 +1,5 @@
 const client=require("../../Connection/connection");
-client.connect();
+
 exports.AddService=function(req,res){
    
     (async()=>{

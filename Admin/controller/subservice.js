@@ -1,6 +1,5 @@
 const client=require("../../Connection/connection");
-const router = require("../routes/subservice");
-client.connect();
+
 exports.AddSubService=function(req,res){
     (async()=>{
          let subservicedata=req.body;
